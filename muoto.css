@@ -1,0 +1,96 @@
+body {
+	margin-right: 100px;
+	margin-left: 70px;
+	line-height: 1.5;
+	font-size: 18px;
+	font-family: Verdana, sans-serif;
+	text-align: left;
+}
+
+h1 {
+	color: RGB(198, 83, 140);
+	text-align: center;
+	font-size: 70px;
+	font-family: Georgia, serif;
+	letter-spacing: 5px;
+	padding: 50px;
+}
+
+h2 {
+	color: RGB(102, 153, 153);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	width: 80 px;
+}
+
+li a {
+    display: block;
+    background-color: RGB(102, 153, 153);
+  }
+.kukka {
+   width: 40%;
+   float: left;
+   padding: 20px;
+}
+
+.vihreä {
+   width: 80%;
+   padding: 20px;
+}
+
+.etusivukeskelle {
+  text-align: center;
+}
+
+
+.saalistus{
+   width: 30%;
+   padding: 30px;
+   float: left;
+   
+}
+
+.lumi {
+   width: 30%;
+   float: left;
+   padding: 20px;
+   
+}
+
+.valikko {
+	text-align: center;
+	padding: 70px;
+}
+
+.valikko ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	overflow: hidden;
+    background-color: RGB(102, 153, 153);
+}
+.valikko li {
+   float: left;
+}
+  
+.valikko li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.valikko li a:hover:not(.active){
+    background-color: RGB(198, 83, 140);
+  }
+  
+.vastuu {
+   color: RGB(102, 153, 153);
+   font-style: italic;
+   font-size: 16px;
+}
